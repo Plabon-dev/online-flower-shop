@@ -1,0 +1,335 @@
+/* common shared styles*/
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* header related styles starts*/
+
+.heading {
+    display: flex;
+    align-items: center;
+    height: 820px;
+    background-color: rgba(229, 84, 115, 0.10)
+}
+
+.header-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 32px;
+    
+}
+
+.header-text {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+
+}
+
+.btn-primary {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    align-items: flex-start;
+    gap: 10px;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+
+}
+
+.header {
+    padding: 0px 0px 0px 80px;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+
+
+}
+
+
+.pic1 {
+    padding: 20px 80px 0px 0px;
+}
+
+/* header related styles ends*/
+
+
+
+/* Featured Flowers styles starts */
+
+.Feat-sec {
+    
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0px 0px 0px;
+    
+
+}
+
+.title {
+    margin-bottom: 24px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    
+    
+}
+
+.para {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+  .feature-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0px 0px 0px;
+ } 
+
+
+ .f1 {
+    width: 330px;
+    height: 450px;
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 50px 0px 50px; 
+    
+ } 
+
+
+ .f2 {
+    width: 330px;
+    height: 450px;
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 50px 0px 50px; 
+    margin: 0px 20px 0px 20px;
+    
+    
+ }
+
+
+ .f3 {
+    width: 330px;
+    height: 450px;
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    padding: 50px 50px 0px 50px; 
+ }
+
+
+ .flower-img-cap {
+    margin-top: 10px;
+    padding-bottom: 150px;
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+ }
+
+ /* Featured Flowers styles ends */
+
+
+ /* Hot Deals styles starts */
+
+.hot-deals {
+    width: 1922px;
+    height: 600px;
+    background-color: rgba(20, 18, 19, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.deal-text {
+    text-align: center;
+
+
+}
+
+.pri-hd {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+
+}
+
+.red {
+    color: red;
+}
+/* Hot Deals styles ends */
+
+/* instagram section styles starts */
+
+.insta-text {
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.p1 {
+    width: 342px;
+    height: 396px
+}
+
+.insta-pic {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+/* instagram section styles ends */
+
+
+/* latest deal section styles starts */
+
+.get-deals {
+    width: 1440px;
+    height: 449px;
+    margin-top: 128px;
+    background-image: url("/flower-shop-assignment-main/Flower-Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    color: rgba(39, 39, 39, 0.6);
+    
+
+}
+
+.deal-text{
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0px;
+    margin-bottom: 30px;
+
+}
+
+.deal-header{
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: black;
+    margin-bottom: 0px;
+   
+}
+.email{
+    padding-left: 22px;
+    padding-bottom: 18px;
+    padding-top: 18px;
+    padding-right: 513px;
+    border-radius: 8px;
+    
+
+
+}
+/* latest deal section styles ends */
+
+/* faq section styles starts */
+
+.faq{
+    font-size: 25px;
+    height: 850px;
+    padding: 20px;
+    background-color: rgb(181, 228, 230);
+    justify-content: center;
+    align-content: center;
+    
+    
+}
+
+/* faq section styles ends */
+
+/* footer section styles starts */
+
+footer{
+    width: 1922px;
+    height: 449px;
+    background-color: #111010;
+    margin-top: 128px;
+    text-align: center;
+    
+}
+
+.faq-t {
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    color: black;
+    margin-bottom: 0px;
+}  
+
+.ft-h{
+    color: white;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 0px;
+    padding-top: 128px;
+
+}
+
+.ftr-txt{
+    color: white;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    
+}
+
+.copyright{
+    color: #FFFFFF66;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding left: 800px;
+    
+}
+/* footer section styles ends */
+
+
